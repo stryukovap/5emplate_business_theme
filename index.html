@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Business Theme</title>
 </head>
@@ -43,20 +44,31 @@
             </nav>
         </div>
     </header>
-    <main class="main_content container">
+    <main class="main_content">
         <section class="slider">
-            <h1 class="slider_title">Boost up your Local business</h1>
-            <p class="slider_text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting
-            </p>
-            <form action="#" class="main_header_form">
-                <input type="text" name="full_name" id="full_name">
-                <input type="email" name="e_mail" id="e_mail">
-                <input type="tel" name="phone" id="phone">
-                <button type="submit">Request a quote</button>
-            </form>
+            <div class="slider_wrapper container">
+                <h1 class="slider_title">Boost up your Local business</h1>
+                <p class="slider_text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting
+                </p>
+                <form action="#" class="main_header_form">
+                    <div class="wrap">
+                        <i class="fas fa-user form_decor"></i>
+                        <input class="main_header_form_input main_header_form--full_name" placeholder="Full Name" type="text" name="full_name" id="full_name">
+                    </div>
+                    <div class="wrap">
+                        <i class="fas fa-envelope form_decor"></i>
+                        <input class="main_header_form_input main_header_form--e_mail" placeholder="Email Address" type="email" name="e_mail" id="e_mail">
+                    </div>
+                    <div class="wrap">
+                        <i class="fas fa-phone fa-rotate-90 form_decor"></i>
+                        <input class="main_header_form_input main_header_form--phone" placeholder="Phone Number" type="tel" name="phone" id="phone">
+                    </div>
+                    <button class="main_header_form_button" type="submit">Request a quote</button>
+                </form>
+            </div>
         </section>
-        <secton class="service">
+        <secton class="service container">
             <h2>Our Services</h2>
             <p>Lorem Ipsum is simply dummy Business industry.</p>
             <ul class="service_list">
