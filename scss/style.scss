@@ -74,7 +74,7 @@
 }
 
 .main_header_form {
-    padding-top: 33px;
+    padding-top: 30px;
     padding-bottom: 347px;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
@@ -84,8 +84,8 @@
     line-height: normal;
     letter-spacing: normal;
     .main_header_form_input {
-        width: 281px - 40px;
-        height: 46px;
+        width: 281px - 42px;
+        height: 40px;
         border-radius: 2px;
         margin-right: 5px;
         padding-left: 40px;
@@ -99,7 +99,7 @@
         width: 15px;
         height: 15px;
         display: block;
-        top: 19px;
+        top: 16px;
         left: 15px;
     }
     .wrap {
@@ -108,6 +108,17 @@
         vertical-align: top;
         margin: 0 auto;
     }
+    .main_header_form_button {
+        width: 211px;
+        height: 46px;
+        border-radius: 4px;
+        background-color: #ffbb42;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        display: inline-block;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
 }
-
-

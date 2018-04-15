@@ -4829,7 +4829,7 @@ readers do not read off random characters that represent icons */
 
 /* line 76, D:/Development/GitHub/5emplate_business_theme/scss/style.scss */
 .main_header_form {
-  padding-top: 33px;
+  padding-top: 30px;
   padding-bottom: 347px;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
@@ -4842,8 +4842,8 @@ readers do not read off random characters that represent icons */
 
 /* line 86, D:/Development/GitHub/5emplate_business_theme/scss/style.scss */
 .main_header_form .main_header_form_input {
-  width: 241px;
-  height: 46px;
+  width: 239px;
+  height: 40px;
   border-radius: 2px;
   margin-right: 5px;
   padding-left: 40px;
@@ -4859,7 +4859,7 @@ readers do not read off random characters that represent icons */
   width: 15px;
   height: 15px;
   display: block;
-  top: 19px;
+  top: 16px;
   left: 15px;
 }
 
@@ -4869,6 +4869,21 @@ readers do not read off random characters that represent icons */
   display: inline-block;
   vertical-align: top;
   margin: 0 auto;
+}
+
+/* line 111, D:/Development/GitHub/5emplate_business_theme/scss/style.scss */
+.main_header_form .main_header_form_button {
+  width: 211px;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #ffbb42;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=../css/style.map */
