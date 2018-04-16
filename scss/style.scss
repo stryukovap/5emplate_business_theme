@@ -1,9 +1,12 @@
 @import 'reset';
-@import 'fontawesome';
-@import 'fa-solid';
-@import 'fa-brands';
+@import 'Gotham-Black';
+// @import 'fontawesome';
+// @import 'fa-solid';
+// @import 'fa-brands';
+
 // font-family: 'Lato', sans-serif;
 // font-family: 'Open Sans', sans-serif;
+// font-family: 'Gotham', sans-serif; 
 .clearfix::after {
     content: "";
     display: block;
@@ -55,7 +58,7 @@
 .slider {
     background-color: #709dca;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Gotham', sans-serif;    
     color: #ffffff;
     .slider_title {
         font-size: 35px;
@@ -66,6 +69,7 @@
     }
     .slider_text {
         font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         line-height: 1.5;
         letter-spacing: normal;
@@ -90,7 +94,7 @@
         margin-right: 5px;
         padding-left: 40px;
         color: #a9a9a9;
-        opacity: 1; // position: relative;
+        opacity: 1;
     }
     .form_decor {
         color: #a9a9a9;
