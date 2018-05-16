@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, ../scss/reset.scss */
+/* line 6, reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,35 +25,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 27, ../scss/reset.scss */
+/* line 27, reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 31, ../scss/reset.scss */
+/* line 31, reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 34, ../scss/reset.scss */
+/* line 34, reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 37, ../scss/reset.scss */
+/* line 37, reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 40, ../scss/reset.scss */
+/* line 40, reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, ../scss/reset.scss */
+/* line 45, reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -67,46 +67,44 @@ table {
   font-weight: 900;
   font-style: normal;
 }
-/* line 9, ../scss/style.scss */
+/* line 9, style.scss */
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
-/* line 15, ../scss/style.scss */
+/* line 15, style.scss */
 .container {
   max-width: 1170px;
   margin: 0 auto;
   outline: 1px solid green;
 }
 
-/* line 21, ../scss/style.scss */
+/* line 21, style.scss */
 .logo {
   float: left;
   margin: 22px 0;
 }
-/* line 24, ../scss/style.scss */
-.logo__img {
+/* line 24, style.scss */
+.logo .logo_img {
   width: 50px;
   height: 48px;
 }
 
-/* line 30, ../scss/style.scss */
-.menu {
+/* line 30, style.scss */
+.main_menu {
   float: right;
 }
-
-/* line 34, ../scss/style.scss */
-.list__item {
+/* line 32, style.scss */
+.main_menu .main_menu_list_item {
   display: inline-block;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0;
 }
-
-/* line 42, ../scss/style.scss */
-.main_menu_list_item_link {
+/* line 38, style.scss */
+.main_menu .main_menu_list_item_link {
   color: #868686;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -115,27 +113,26 @@ table {
   text-decoration: none;
   padding: 12px 16px;
 }
-
-/* line 51, ../scss/style.scss */
-.main_menu_list_item:hover .main_menu_list_item_link {
+/* line 47, style.scss */
+.main_menu .main_menu_list_item:hover .main_menu_list_item_link {
   background-color: #ffbb42;
   color: #ffffff;
 }
 
-/* line 57, ../scss/style.scss */
+/* line 53, style.scss */
 .logo,
-.menu {
+.main_menu {
   vertical-align: top;
 }
 
-/* line 62, ../scss/style.scss */
+/* line 58, style.scss */
 .slider {
   background-color: #709dca;
   text-align: center;
   font-family: 'Gotham', sans-serif;
   color: #ffffff;
 }
-/* line 67, ../scss/style.scss */
+/* line 63, style.scss */
 .slider_title {
   font-size: 35px;
   font-weight: 900;
@@ -143,7 +140,7 @@ table {
   letter-spacing: -0.9px;
   padding-top: 110px;
 }
-/* line 74, ../scss/style.scss */
+/* line 70, style.scss */
 .slider_text {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -153,7 +150,7 @@ table {
   margin-top: 10px;
 }
 
-/* line 84, ../scss/style.scss */
+/* line 80, style.scss */
 .main_header_form {
   padding-top: 30px;
   padding-bottom: 347px;
@@ -165,7 +162,7 @@ table {
   line-height: normal;
   letter-spacing: normal;
 }
-/* line 94, ../scss/style.scss */
+/* line 90, style.scss */
 .main_header_form .main_header_form_input {
   width: 239px;
   height: 40px;
@@ -175,7 +172,7 @@ table {
   color: #a9a9a9;
   opacity: 1;
 }
-/* line 103, ../scss/style.scss */
+/* line 99, style.scss */
 .main_header_form .form_decor {
   color: #a9a9a9;
   opacity: 1;
@@ -186,14 +183,14 @@ table {
   top: 16px;
   left: 15px;
 }
-/* line 113, ../scss/style.scss */
+/* line 109, style.scss */
 .main_header_form .wrap {
   position: relative;
   display: inline-block;
   vertical-align: top;
   margin: 0 auto;
 }
-/* line 119, ../scss/style.scss */
+/* line 115, style.scss */
 .main_header_form .main_header_form_button {
   width: 211px;
   height: 46px;
@@ -209,7 +206,7 @@ table {
   text-transform: uppercase;
 }
 
-/* line 135, ../scss/style.scss */
+/* line 131, style.scss */
 .service {
   text-align: center;
   color: #394b50;
@@ -220,13 +217,13 @@ table {
   letter-spacing: normal;
   margin-top: 203px;
 }
-/* line 136, ../scss/style.scss */
+/* line 132, style.scss */
 .service .service_list {
   display: inline-block;
   font-size: 0;
   margin-top: 93px;
 }
-/* line 150, ../scss/style.scss */
+/* line 146, style.scss */
 .service .service_title {
   font-family: 'Gotham', sans-serif;
   font-size: 30px;
@@ -234,18 +231,18 @@ table {
   line-height: 0.73;
   letter-spacing: -0.8px;
 }
-/* line 157, ../scss/style.scss */
+/* line 153, style.scss */
 .service .service_text {
   font-size: 16px;
   line-height: 1.38;
 }
 
-/* line 162, ../scss/style.scss */
+/* line 158, style.scss */
 .service_wrap_row {
   outline: 1px solid greenyellow;
 }
 
-/* line 165, ../scss/style.scss */
+/* line 161, style.scss */
 .service_list_item {
   padding-left: 81px;
   margin-top: 79px;
@@ -257,7 +254,7 @@ table {
   width: 50%;
   box-sizing: border-box;
 }
-/* line 175, ../scss/style.scss */
+/* line 171, style.scss */
 .service_list_item .sevice_list_item--title {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -266,7 +263,7 @@ table {
   text-align: left;
   text-transform: uppercase;
 }
-/* line 183, ../scss/style.scss */
+/* line 179, style.scss */
 .service_list_item .sevice_list_item--text {
   padding-top: 21px;
   padding-right: 60px;
@@ -275,7 +272,7 @@ table {
   text-align: left;
   color: #7b7b7b;
 }
-/* line 191, ../scss/style.scss */
+/* line 187, style.scss */
 .service_list_item .service_list_decor {
   color: #709dca;
   font-size: 50px;
