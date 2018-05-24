@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, D:/Development/GitHub/5emplate_business_theme/scss/reset.scss */
+/* line 6, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,35 +25,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 27, D:/Development/GitHub/5emplate_business_theme/scss/reset.scss */
+/* line 27, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 31, D:/Development/GitHub/5emplate_business_theme/scss/reset.scss */
+/* line 31, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 34, D:/Development/GitHub/5emplate_business_theme/scss/reset.scss */
+/* line 34, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 37, D:/Development/GitHub/5emplate_business_theme/scss/reset.scss */
+/* line 37, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 40, D:/Development/GitHub/5emplate_business_theme/scss/reset.scss */
+/* line 40, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, D:/Development/GitHub/5emplate_business_theme/scss/reset.scss */
+/* line 45, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;

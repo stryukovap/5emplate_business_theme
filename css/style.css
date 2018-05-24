@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, ../scss/reset.scss */
+/* line 6, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,35 +25,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 27, ../scss/reset.scss */
+/* line 27, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 31, ../scss/reset.scss */
+/* line 31, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 34, ../scss/reset.scss */
+/* line 34, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 37, ../scss/reset.scss */
+/* line 37, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 40, ../scss/reset.scss */
+/* line 40, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, ../scss/reset.scss */
+/* line 45, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -67,96 +67,106 @@ table {
   font-weight: 900;
   font-style: normal;
 }
-/* line 9, ../scss/style.scss */
+
+/* line 10, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+li {
+  list-style: none;
+}
+
+/* line 19, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
-/* line 15, ../scss/style.scss */
+/* line 28, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
 .container {
   max-width: 1170px;
   margin: 0 auto;
   outline: 1px solid green;
 }
 
-/* line 21, ../scss/style.scss */
+/* line 34, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
 .logo {
   float: left;
   margin: 22px 0;
 }
-/* line 24, ../scss/style.scss */
+
+/* line 37, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
 .logo__img {
   width: 50px;
   height: 48px;
 }
 
-/* line 30, ../scss/style.scss */
+/* line 43, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
 .menu {
   float: right;
 }
 
-/* line 34, ../scss/style.scss */
+/* line 49, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
 .list__item {
   display: inline-block;
+  vertical-align: top;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0;
 }
 
-/* line 42, ../scss/style.scss */
-.main_menu_list_item_link {
+/* line 55, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.list__item:hover .list__link {
+  background-color: #FFBB42;
+  color: #FFFFFF;
+}
+
+/* line 61, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.list__link {
   color: #868686;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 12px 16px;
+  padding: 8px 16px;
 }
 
-/* line 51, ../scss/style.scss */
-.main_menu_list_item:hover .main_menu_list_item_link {
-  background-color: #ffbb42;
-  color: #ffffff;
-}
-
-/* line 57, ../scss/style.scss */
-.logo,
-.menu {
-  vertical-align: top;
-}
-
-/* line 62, ../scss/style.scss */
-.slider {
-  background-color: #709dca;
+/* line 72, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.banner {
+  background-color: #709DCA;
   text-align: center;
   font-family: 'Gotham', sans-serif;
-  color: #ffffff;
+  color: #FFFFFF;
 }
-/* line 67, ../scss/style.scss */
-.slider_title {
+
+/* line 81, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.banner__title {
   font-size: 35px;
   font-weight: 900;
-  line-height: 0.69;
+  line-height: 1.2;
   letter-spacing: -0.9px;
-  padding-top: 110px;
+  padding-top: 98px;
+  text-transform: uppercase;
 }
-/* line 74, ../scss/style.scss */
-.slider_text {
+
+/* line 91, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.banner__text {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: normal;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
-/* line 84, ../scss/style.scss */
-.main_header_form {
+/* line 100, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.banner__form {
   padding-top: 30px;
-  padding-bottom: 347px;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: normal;
@@ -165,19 +175,18 @@ table {
   line-height: normal;
   letter-spacing: normal;
 }
-/* line 94, ../scss/style.scss */
-.main_header_form .main_header_form_input {
-  width: 239px;
-  height: 40px;
-  border-radius: 2px;
-  margin-right: 5px;
-  padding-left: 40px;
-  color: #a9a9a9;
-  opacity: 1;
+
+/* line 116, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.form__wrap {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto;
 }
-/* line 103, ../scss/style.scss */
-.main_header_form .form_decor {
-  color: #a9a9a9;
+
+/* line 123, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.form__decor {
+  color: #A9A9A9;
   opacity: 1;
   position: absolute;
   width: 15px;
@@ -186,79 +195,179 @@ table {
   top: 16px;
   left: 15px;
 }
-/* line 113, ../scss/style.scss */
-.main_header_form .wrap {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 auto;
+
+/* line 134, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.form__input {
+  width: 239px;
+  height: 44px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 5px;
+  padding-left: 40px;
+  color: #A9A9A9;
+  opacity: 1;
 }
-/* line 119, ../scss/style.scss */
-.main_header_form .main_header_form_button {
+
+/* line 145, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.form__button {
   width: 211px;
   height: 46px;
   border: none;
   border-radius: 2px;
-  background-color: #ffbb42;
+  background-color: #FFBB42;
   text-align: center;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   display: inline-block;
-  color: #ffffff;
+  color: #FFFFFF;
   text-transform: uppercase;
 }
 
-/* line 135, ../scss/style.scss */
-.service {
+/* line 158, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.form__button:hover {
+  background-color: #F6772C;
+  border-color: #F6772C;
+  cursor: pointer;
+}
+
+/* line 167, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.slider {
+  position: relative;
+  min-height: 347px;
+}
+
+/* line 171, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.slider__wrapper {
+  width: 648px;
+  margin: 0 auto;
+  position: absolute;
+  top: 67px;
+  left: 50%;
+  margin-left: -324px;
+}
+
+/* line 180, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.slider__laptop {
+  width: 648px;
+  height: 344px;
+  background-image: url("../img/laptop_648x344.png");
+  background-repeat: no-repeat;
+}
+
+/* line 187, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.slider__item {
+  width: 445px;
+  height: 264px;
+  position: absolute;
+  top: 18px;
+  left: 102px;
+  background-color: #475459;
+  background-image: url("../img/laptop_foto_445x264.png");
+}
+
+/* line 197, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.slider__controls {
+  margin: 22px auto;
+  font-size: 0;
   text-align: center;
-  color: #394b50;
+}
+
+/* line 203, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.slider__control-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: solid 2px #DEDFE0;
+  background-color: #FFF;
+}
+
+/* line 212, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.slider__control-item:hover {
+  border-color: #1CA8DD;
+}
+
+/* line 216, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.slider__control-item--current {
+  border-color: #1CA8DD;
+}
+
+/* line 223, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service {
+  margin-top: 195px;
+  padding-bottom: 143px;
+  color: #394B50;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   letter-spacing: normal;
-  margin-top: 203px;
 }
-/* line 136, ../scss/style.scss */
-.service .service_list {
-  display: inline-block;
-  font-size: 0;
-  margin-top: 93px;
-}
-/* line 150, ../scss/style.scss */
-.service .service_title {
+
+/* line 233, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service__title {
   font-family: 'Gotham', sans-serif;
+  text-align: center;
   font-size: 30px;
   font-weight: 900;
-  line-height: 0.73;
+  line-height: 1.2;
   letter-spacing: -0.8px;
+  text-transform: uppercase;
 }
-/* line 157, ../scss/style.scss */
-.service .service_text {
+
+/* line 243, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service__text {
+  text-align: center;
   font-size: 16px;
   line-height: 1.38;
 }
 
-/* line 162, ../scss/style.scss */
-.service_wrap_row {
-  outline: 1px solid greenyellow;
+/* line 249, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service__list {
+  margin-top: 19px;
+  font-size: 0;
 }
 
-/* line 165, ../scss/style.scss */
-.service_list_item {
-  padding-left: 81px;
-  margin-top: 79px;
+/* line 254, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service__list-item {
+  box-sizing: border-box;
+  position: relative;
   display: inline-block;
   vertical-align: top;
+  width: 50%;
+  margin-top: 66px;
+  padding-left: 81px;
+  padding-right: 60px;
   font-size: 0;
   outline: 1px solid red;
-  position: relative;
-  width: 50%;
-  box-sizing: border-box;
 }
-/* line 175, ../scss/style.scss */
-.service_list_item .sevice_list_item--title {
+
+/* line 267, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service__list-item:nth-child(even) {
+  width: 540px;
+  margin-left: 32px;
+  padding-right: 0;
+}
+
+/* line 273, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service__list-decor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #709DCA;
+  font-size: 50px;
+}
+
+/* line 279, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service__list-decor:hover {
+  color: #F6772C;
+}
+
+/* line 284, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service__item-title {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.38;
@@ -266,22 +375,507 @@ table {
   text-align: left;
   text-transform: uppercase;
 }
-/* line 183, ../scss/style.scss */
-.service_list_item .sevice_list_item--text {
+
+/* line 293, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.service__item-text {
   padding-top: 21px;
-  padding-right: 60px;
   font-size: 13px;
   line-height: 1.69;
   text-align: left;
-  color: #7b7b7b;
-}
-/* line 191, ../scss/style.scss */
-.service_list_item .service_list_decor {
-  color: #709dca;
-  font-size: 50px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  color: #7B7B7B;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* line 303, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.about {
+  box-sizing: border-box;
+  background-color: #FFC155;
+  position: relative;
+}
+
+/* line 307, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.about::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background-image: url("../img/about_us_850x623.png");
+  background-size: cover;
+  background-position: center right;
+}
+
+/* line 319, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.about__wrapper {
+  box-sizing: border-box;
+  padding-left: 50%;
+}
+
+/* line 325, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.about__title {
+  font-family: 'Gotham', sans-serif;
+  margin-left: 80px;
+  padding-top: 154px;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.25;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+/* line 339, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.about__text {
+  margin-left: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+/* line 352, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.about__link {
+  margin-left: 80px;
+  margin-top: 26px;
+  margin-bottom: 174px;
+  border-radius: 2px;
+  background-color: #FFC155;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 15px 33px;
+  text-transform: uppercase;
+  border: solid 1px #E7AD48;
+}
+
+/* line 368, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.about__link:hover {
+  background-color: #E7AD48;
+}
+
+/* line 375, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price {
+  background-color: #E7EDF3;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 136px;
+  padding-bottom: 161px;
+  color: #394B50;
+}
+
+/* line 383, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price__title {
+  font-family: 'Gotham', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+
+/* line 393, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price__text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+/* line 399, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price__list {
+  font-size: 0;
+}
+
+/* line 405, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price__list-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 412, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card {
+  margin-top: 75px;
+  margin-bottom: 30px;
+  padding: 51px 31px 48px;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  border: solid 1px #CCD5DF;
+}
+
+/* line 421, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card:hover {
+  background-color: #709DCA;
+  margin-top: 45px;
+  margin-bottom: 0;
+  padding-top: 81px;
+  padding-bottom: 78px;
+}
+
+/* line 429, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card__title {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #818B95;
+  text-transform: uppercase;
+}
+
+/* line 436, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card:hover .price-card__title {
+  color: #FFF;
+}
+
+/* line 441, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card__price {
+  margin-top: 20px;
+  font-size: 60px;
+  color: #FFBB42;
+  font-weight: bold;
+}
+
+/* line 447, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card:hover .price-card__price {
+  color: #FFF;
+}
+
+/* line 453, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card__currency {
+  font-size: 32px;
+  font-weight: 300;
+  vertical-align: super;
+}
+
+/* line 459, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card__text {
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 300;
+  color: #818B95;
+  font-variant: small-caps;
+}
+
+/* line 466, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card:hover .price-card__text {
+  color: #FFF;
+}
+
+/* line 472, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card__features-list {
+  margin-top: 30px;
+  color: #B5BBC1;
+  text-transform: uppercase;
+}
+
+/* line 477, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card:hover .price-card__features-list {
+  color: #FFF;
+}
+
+/* line 483, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card__feature {
+  padding: 0 80px;
+  line-height: 40px;
+  border-top: 1px solid #E2E9F0;
+}
+
+/* line 487, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card:hover .price-card__feature {
+  border-top: 1px solid #8EB8E2;
+}
+
+/* line 493, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card__link {
+  margin-top: 15px;
+  border-radius: 2px;
+  background-color: #FFC155;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 16px 21px;
+  text-transform: uppercase;
+}
+
+/* line 506, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.price-card__link:hover {
+  background-color: #F6772C;
+  cursor: pointer;
+}
+
+/* line 514, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps {
+  color: #394B50;
+  padding-top: 147px;
+  padding-bottom: 149px;
+  text-align: center;
+}
+
+/* line 520, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__title {
+  font-family: 'Gotham', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+
+/* line 531, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__text {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+/* line 542, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__step-list {
+  margin-top: 74px;
+  font-size: 0;
+  text-align: center;
+}
+
+/* line 548, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__list-item {
+  margin-left: 87px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  width: 215px;
+}
+
+/* line 555, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__list-item:first-child {
+  margin-left: 0;
+}
+
+/* line 560, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__list-decor {
+  position: relative;
+  color: #709DCA;
+  font-size: 57px;
+  padding-top: 33px;
+}
+
+/* line 566, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__list-decor::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 116px;
+  display: block;
+  width: 129px;
+  height: 33px;
+  background-image: url("../img/Arrow_1_128x32.png");
+  background-repeat: no-repeat;
+}
+
+/* line 578, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__list-item:nth-child(2n) .work-steps__list-decor::after {
+  transform: rotate(177deg);
+  top: 96px;
+}
+
+/* line 583, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__list-item:last-child .work-steps__list-decor::after {
+  display: none;
+}
+
+/* line 589, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__item-title {
+  margin-top: 100px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #394B50;
+  text-transform: uppercase;
+}
+
+/* line 600, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__item-text {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.69;
+  color: #7B7B7B;
+  font-weight: normal;
+}
+
+/* line 610, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__link {
+  margin-top: 91px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 2px;
+  background-color: #FFC155;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  padding: 16px 28px;
+  text-transform: uppercase;
+}
+
+/* line 624, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.work-steps__link:hover {
+  background-color: #F6772C;
+  cursor: pointer;
+}
+
+/* line 632, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.reviews {
+  background-color: #ffc155;
+  padding-top: 137px;
+  padding-bottom: 160px;
+  text-align: center;
+}
+
+/* line 639, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.reviews__title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: 'Gotham', sans-serif;
+  color: #FFFFFF;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* line 650, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.reviews__text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+/* line 661, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.reviews__list {
+  font-size: 0;
+  padding-top: 38px;
+}
+
+/* line 667, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.reviews__list-item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  margin-top: 13px;
+  margin-right: 36px;
+}
+
+/* line 674, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.reviews__list-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+/* line 680, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card {
+  box-sizing: border-box;
+  position: relative;
+  width: 567px;
+  background-color: #FFF;
+  border-radius: 2px;
+  padding-left: 182px;
+  padding-right: 27px;
+  padding-bottom: 51px;
+  padding-top: 44px;
+  text-align: left;
+}
+
+/* line 692, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card::before {
+  content: '';
+  display: block;
+  width: 121px;
+  height: 121px;
+  position: absolute;
+  top: 43px;
+  left: 30px;
+  border-radius: 50%;
+}
+
+/* line 704, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card:nth-child(1)::before {
+  background-image: url("../img/face1_121x121.png");
+  background-repeat: no-repeat;
+}
+
+/* line 709, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card:nth-child(2)::before {
+  background-image: url("../img/face2_121x121.png");
+  background-repeat: no-repeat;
+}
+
+/* line 714, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card:nth-child(3)::before {
+  background-image: url("../img/face3_121x121.png");
+  background-repeat: no-repeat;
+}
+
+/* line 719, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card:nth-child(4)::before {
+  background-image: url("../img/face4_121x121.png");
+  background-repeat: no-repeat;
+}
+
+/* line 728, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card__blockquote {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.69;
+  text-align: left;
+  color: #7B7B7B;
+}
+
+/* line 737, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card__blockquote::before, .review-card__blockquote::after {
+  content: "";
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  width: 11px;
+  height: 9px;
+  background-image: url("../img/quote.png");
+  background-repeat: no-repeat;
+}
+
+/* line 748, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card__blockquote::after {
+  transform: rotate(180deg);
+}
+
+/* line 754, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card__author {
+  display: block;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 765, D:/HTML/HILLEL/DZ9/5emplate_business_theme-master/scss/style.scss */
+.review-card__author-name {
+  color: #f6772c;
+}
+
+/*# sourceMappingURL=../css/style.map */
