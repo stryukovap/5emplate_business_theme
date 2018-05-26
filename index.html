@@ -15,36 +15,33 @@
 <body>
 	<header class="main-header container">
 		<div class="main-header__wrapper clearfix">
-			<div class="logo">
-				<img src="img/logo_50x48.png" alt="logo" class="logo__img">
+			<div class="main-header__logo">
+				<a href="#" class="logo">
+					<img src="img/logo_50x48.png" alt="logo" class="logo__img">
+				</a>
 			</div>
-			<!-- <nav class="main_menu">
-				<ul class="main_menu_list">
-					<li class="main_menu_list_item">
-						<a href="#" class="main_menu_list_item_link">Home</a>
-					</li> -->
-			<nav class="menu">
-				<ul class="menu__list list">
-					<li class="list__item">
-						<a href="#" class="list__link list__link--active">Home</a>
+			<nav class="main-header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a href="#" class="menu__link menu__link--active">Home</a>
 					</li>
-					<li class="list__item">
-						<a href="#" class="list__link">Service</a>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Service</a>
 					</li>
-					<li class="list__item">
-						<a href="#" class="list__link">About us</a>
+					<li class="menu__item">
+						<a href="#" class="menu__link">About us</a>
 					</li>
-					<li class="list__item">
-						<a href="#" class="list__link">Pricing Table</a>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Pricing Table</a>
 					</li>
-					<li class="list__item">
-						<a href="#" class="list__link">How it work</a>
+					<li class="menu__item">
+						<a href="#" class="menu__link">How it work</a>
 					</li>
-					<li class="list__item">
-						<a href="#" class="list__link">Happy Clients</a>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Happy Clients</a>
 					</li>
-					<li class="list__item">
-						<a href="#" class="list__link">Contact Us</a>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Contact Us</a>
 					</li>
 				</ul>
 			</nav>
@@ -52,12 +49,12 @@
 	</header>
 	<main class="main_content">
 		<section class="banner">
-			<div class="banner__wrapper container">
+			<div class="container">
 				<h1 class="banner__title">Boost up your Local business</h1>
 				<p class="banner__text">
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting
 				</p>
-				<form action="#" class="banner__form form">
+				<form action="https://fom.in.ua/echo" method="get" name="quote" class="banner__form form">
 					<div class="form__wrap">
 						<i class="fas fa-user form__decor"></i>
 						<input class="form__input" placeholder="Full Name" type="text" name="full_name" id="full_name">
@@ -170,55 +167,57 @@
 			</div>
 		</section>
 		<section class="price">
-			<h2 class="price__title">Choose your price</h2>
-			<p class="price__text">
-				Lorem Ipsum is simply dummy text of the printing typesetting.
-			</p>
-			<ul class="price__list">
-				<li class="price__list-item price-card">
-					<h3 class="price-card__title">Basic plan</h3>
-					<p class="price-card__price">
-						<sup class="price-card__currency">$</sup>22
-					</p>
-					<p class="price-card__text">per month</p>
-					<ul class="price-card__features-list">
-						<li class="price-card__feature">1 Account</li>
-						<li class="price-card__feature">8 hour support</li>
-						<li class="price-card__feature">Custom Cloud Services</li>
-					</ul>
-					<a href="#" class="price-card__link">Get Started</a>
-				</li>
-				<li class="price__list-item price-card">
-					<h3 class="price-card__title">Premium plan</h3>
-					<p class="price-card__price">
-						<sup class="price-card__currency">$</sup>42
-					</p>
-					<p class="price-card__text">per month</p>
-					
-					<ul class="price-card__features-list">
-						<li class="price-card__feature">2 Account</li>
-						<li class="price-card__feature">100MB Storage</li>
-						<li class="price-card__feature">Custom Cloud Services</li>
-					</ul>
-					<a href="#" class="price-card__link">Get Started</a>
-				</li>
-				<li class="price__list-item price-card">
-					<h3 class="price-card__title ">Gold plan</h3>
-					<p class="price-card__price">
-						<sub class="price-card__currency">$</sub>62
-					</p>
-					<p class="price-card__text">per month</p>
-					<ul class="price-card__features-list ">
-						<li class="price-card__feature">8 Account</li>
-						<li class="price-card__feature">24 hour support</li>
-						<li class="price-card__feature">Custom Cloud Services</li>
-					</ul>
-					<a href="#" class="price-card__link">Get Started</a>
-				</li>
-			</ul>
+			<div class="container">
+				<h2 class="price__title">Choose your price</h2>
+				<p class="price__text">
+					Lorem Ipsum is simply dummy text of the printing typesetting.
+				</p>
+				<ul class="price__list">
+					<li class="price__list-item price-card">
+						<h3 class="price-card__title">Basic plan</h3>
+						<p class="price-card__price">
+							<sup class="price-card__currency">$</sup>22
+						</p>
+						<p class="price-card__text">per month</p>
+						<ul class="price-card__features-list">
+							<li class="price-card__feature">1 Account</li>
+							<li class="price-card__feature">8 hour support</li>
+							<li class="price-card__feature">Custom Cloud Services</li>
+						</ul>
+						<a href="#" class="price-card__link">Get Started</a>
+					</li>
+					<li class="price__list-item price-card">
+						<h3 class="price-card__title">Premium plan</h3>
+						<p class="price-card__price">
+							<sup class="price-card__currency">$</sup>42
+						</p>
+						<p class="price-card__text">per month</p>
+						
+						<ul class="price-card__features-list">
+							<li class="price-card__feature">2 Account</li>
+							<li class="price-card__feature">100MB Storage</li>
+							<li class="price-card__feature">Custom Cloud Services</li>
+						</ul>
+						<a href="#" class="price-card__link">Get Started</a>
+					</li>
+					<li class="price__list-item price-card">
+						<h3 class="price-card__title ">Gold plan</h3>
+						<p class="price-card__price">
+							<sub class="price-card__currency">$</sub>62
+						</p>
+						<p class="price-card__text">per month</p>
+						<ul class="price-card__features-list ">
+							<li class="price-card__feature">8 Account</li>
+							<li class="price-card__feature">24 hour support</li>
+							<li class="price-card__feature">Custom Cloud Services</li>
+						</ul>
+						<a href="#" class="price-card__link">Get Started</a>
+					</li>
+				</ul>
+			</div>
 		</section>
 		
-		<section class="work-steps">
+		<section class="work-steps container">
 			<h2 class="work-steps__title">How it works</h2>
 			<p class="work-steps__text">Lorem Ipsum is simply dummy Business industry</p>
 			<ul class="work-steps__step-list">
@@ -256,129 +255,166 @@
 				</li>
 			</ul>
 			<a href="#" class="work-steps__link">Get Start Now</a>
-		
-		
 		</section>
 		<section class="reviews">
-			<h2 class="reviews__title">Happy Clients</h2>
-			<p class="reviews__text">We are explain who is using our business solutions</p>
-			<ul class="reviews__list">
-				<li class="reviews__list-item review-card">
-					<div class="review-card__blockquote">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the
-						industry standard dummy
-						text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-						make.
-					</div>
-					<cite class="review-card__author">
-						<span class="review-card__author-name">Darwin Michle,</span>
-						<span class="review-card__author-career">Project manager</span>
-					</cite>
-				</li>
-				<li class="reviews__list-item review-card">
-					<blockquote class="review-card__blockquote fa">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the
-						industrystandard dummy
-						text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to make a
-						type
-						specimen book.
-					</blockquote>
-					<cite class="review-card__author">
-						<span class="review-card__author-name">Madam Elisabath,</span>
-						<span class="review-card__author-career">Creative Director</span>
-					</cite>
-				</li>
-				
-				<li class="reviews__list-item review-card">
-					<blockquote class="review-card__blockquote">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the
-						industry standard dummy
-						text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-						make.
-					</blockquote>
-					<cite class="review-card__author">
-						<span class="review-card__author-name">Clips Arter,</span>
-						<span class="review-card__author-career">Lipsum directer</span>
-					</cite>
-				</li>
-				
-				<li class="reviews__list-item review-card">
-					<blockquote class="review-card__blockquote">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the
-						industrystandard dummy
-						text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to make a
-						type
-						specimen book.
-					</blockquote>
-					<cite class="review-card__author">
-						<span class="review-card__author-name">Zam Cristafr,</span>
-						<span class="review-card__author-career">manager</span>
-					</cite>
-				</li>
-			</ul>
-		</section>
-	</main>
-	<footer class="main-footer container">
-		<form action="#" class="main_footer_form">
-			<input type="text" name="name" id="name">
-			<input type="email" name="e_mail" id="e_mail">
-			<button type="submit">Subscribe now</button>
-		</form>
-		<section class="contact">
-			<h2 class="contect_title">Address</h2>
-			<ul class="contact_list">
-				<li class="contact_item">Business street</li>
-				<li class="contact_item">Second north section</li>
-				<li class="contact_item">Bavani nagar. 88769</li>
-				<li class="contact_item">Call : +987-9976-999</li>
-				<li class="contact_item">
-					<a class="contact_item_email" href="mailto:info@businessface.com">info@businessface.com</a>
-				</li>
-			</ul>
-			<div class="logo">
-				<img src="img/logo_50x48.png" alt="logo" class="logo_img">
+			<div class="container">
+				<h2 class="reviews__title">Happy Clients</h2>
+				<p class="reviews__text">We are explain who is using our business solutions</p>
+				<ul class="reviews__list">
+					<li class="reviews__list-item review-card">
+						<div class="review-card__blockquote">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been
+							the
+							industry standard dummy
+							text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+							make.
+						</div>
+						<cite class="review-card__author">
+							<span class="review-card__author-name">Darwin Michle,</span>
+							<span class="review-card__author-career">Project manager</span>
+						</cite>
+					</li>
+					<li class="reviews__list-item review-card">
+						<blockquote class="review-card__blockquote fa">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been
+							the
+							industrystandard dummy
+							text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to
+							make a
+							type
+							specimen book.
+						</blockquote>
+						<cite class="review-card__author">
+							<span class="review-card__author-name">Madam Elisabath,</span>
+							<span class="review-card__author-career">Creative Director</span>
+						</cite>
+					</li>
+					
+					<li class="reviews__list-item review-card">
+						<blockquote class="review-card__blockquote">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been
+							the
+							industry standard dummy
+							text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+							make.
+						</blockquote>
+						<cite class="review-card__author">
+							<span class="review-card__author-name">Clips Arter,</span>
+							<span class="review-card__author-career">Lipsum directer</span>
+						</cite>
+					</li>
+					<li class="reviews__list-item review-card">
+						<blockquote class="review-card__blockquote">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+							been
+							the
+							industrystandard dummy
+							text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to
+							make a
+							type
+							specimen book.
+						</blockquote>
+						<cite class="review-card__author">
+							<span class="review-card__author-name">Zam Cristafr,</span>
+							<span class="review-card__author-career">manager</span>
+						</cite>
+					</li>
+				</ul>
 			</div>
 		</section>
-		<nav class="main_menu footer_menu">
-			<ul class="main_menu_list">
-				<li class="main_menu_list_item">
-					<a href="#" class="main_menu_list_item_link">Home</a>
-				</li>
-				<li class="main_menu_list_item">
-					<a href="#" class="main_menu_list_item_link">Service </a>
-				</li>
-				<li class="main_menu_list_item">
-					<a href="#" class="main_menu_list_item_link">About us</a>
-				</li>
-				<li class="main_menu_list_item">
-					<a href="#" class="main_menu_list_item_link">Pricing Table</a>
-				</li>
-				<li class="main_menu_list_item">
-					<a href="#" class="main_menu_list_item_link">How it work</a>
-				</li>
-				<li class="main_menu_list_item">
-					<a href="#" class="main_menu_list_item_link">Happy Clients</a>
-				</li>
-				<li class="main_menu_list_item">
-					<a href="#" class="main_menu_list_item_link">Contact Us</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="phone">+987 9976 999</div>
-		<section class="footer_social">
-			<a href="#" class="footer_social_link --tw">twitter</a>
-			<a href="#" class="footer_social_link --fb">facebook</a>
-			<a href="#" class="footer_social_link --gl">google+</a>
-			<a href="#" class="footer_social_link --in">linkedin</a>
+		<section class="newsletter container">
+			<h2 class="newsletter__title">Newsletter</h2>
+			<p class="newsletter__text">Lorem Ipsum is simply dummy Business industry</p>
+			<form action="https://fom.in.ua/echo" method="get" name="subscribe" class="newsletter__form form">
+				<div class="form__wrap">
+					<i class="fas fa-user form__decor"></i>
+					<input class="form__input" placeholder="Name" type="text" name="name" id="name">
+				</div>
+				<div class="form__wrap">
+					<i class="fas fa-envelope form__decor"></i>
+					<input class="form__input" placeholder="Email Address" type="email" name="e_mail"
+					       id="subscribe-email">
+				</div>
+				<button class="form__button" type="submit">Subscribe now</button>
+			</form>
 		</section>
-		<section class="copyright">
-			All contents © copyright 2014 Business Theme. All rights reserved Designed by : akhilwebfolio
+		<section class="map container">
+			<div class="map__address-wrapper">
+				<h2 class="map__title">Address</h2>
+				<ul class="map__contacts">
+					<li class="map__contacts-item">Business street</li>
+					<li class="map__contacts-item">Second north section</li>
+					<li class="map__contacts-item">Bavani nagar. 88769</li>
+					<li class="map__contacts-item">Call : +987-9976-999</li>
+					<li class="map__contacts-item">
+						<a class="map__email" href="mailto:info@businessface.com">info@businessface.com</a>
+					</li>
+				</ul>
+			</div>
+			<div class="map__logo">
+				<a href="#" class="logo">
+					<img src="img/logo_50x48.png" alt="logo" class="logo__img">
+				</a>
+			</div>
 		</section>
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+			<section class="main-footer__menu menu">
+				<ul class="menu__list menu__list--center">
+					<li class="menu__item">
+						<a href="#" class="menu__link">Home</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Service </a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">About us</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Pricing Table</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">How it work</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Happy Clients</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Contact Us</a>
+					</li>
+				</ul>
+			</section>
+			<div class="main-footer__phone"><i class="fas fa-rotate-90 fa-phone main-footer__decor"></i> +987 9976
+				999
+			</div>
+			<section class="main-footer__social">
+				<a href="#" class="main-footer__social-link">
+					<i class="main-footer__social-decor fab fa-twitter"></i>twitter
+				</a>
+				<a href="#" class="main-footer__social-link">
+					<i class="main-footer__social-decor fab fa-facebook-f"></i>facebook
+				</a>
+				<a href="#" class="main-footer__social-link">
+					<i class="main-footer__social-decor fab fa-google-plus-g"></i>google+
+				</a>
+				<a href="#" class="main-footer__social-link">
+					<i class="main-footer__social-decor fab fa-linkedin-in"></i>linkedin
+				</a>
+			</section>
+		</div>
+		<div class="main-footer__copyright">
+			<div class="container">
+				All contents © copyright 2014 Business Theme. All rights reserved Designed by :
+				akhilwebfolio
+			</div>
+		</div>
 	</footer>
+
+
 </body>
 
 </html>
